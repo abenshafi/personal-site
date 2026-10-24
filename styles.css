@@ -10,7 +10,7 @@
   --gold: #c9a96a;
   --gold-soft: #e2cc9c;
 
-  --font-display: "Cormorant Garamond", "Amiri", Georgia, serif;
+  --font-display: "Cormorant Garamond", "IBM Plex Sans Arabic", Georgia, serif;
   --font-body: "Inter", "IBM Plex Sans Arabic", system-ui, sans-serif;
 
   --container: 1120px;
@@ -20,9 +20,18 @@
 }
 
 html[lang="ar"] {
-  --font-display: "Amiri", "Cormorant Garamond", serif;
+  --font-display: "IBM Plex Sans Arabic", "Inter", system-ui, sans-serif;
   --font-body: "IBM Plex Sans Arabic", "Inter", system-ui, sans-serif;
 }
+
+/* Arabic headings: IBM Plex Sans Arabic, semibold */
+html[lang="ar"] .brand,
+html[lang="ar"] .hero__name,
+html[lang="ar"] h2,
+html[lang="ar"] .card__title,
+html[lang="ar"] .tl__org,
+html[lang="ar"] .project__title { font-weight: 600; line-height: 1.4; }
+html[lang="ar"] .hero__name { line-height: 1.25; }
 
 /* ===== Base ===== */
 *, *::before, *::after { box-sizing: border-box; }

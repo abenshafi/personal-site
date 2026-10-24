@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>عبدالله شافي إدريس | Abdullah Shafi Idris</title>
+  <meta name="description" content="Abdullah Shafi Idris — Producer, Content Developer & Entrepreneur.">
+  <meta name="theme-color" content="#0d0c0a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="عبدالله شافي إدريس | Abdullah Shafi Idris">
+  <meta property="og:description" content="منتج ومطوّر محتوى ورائد أعمال — Producer, Content Developer & Entrepreneur">
+
+  <!-- Apply language before first paint to avoid a flash of the wrong direction -->
+  <script>
+    (function () {
+      var lang;
+      try { lang = localStorage.getItem('lang'); } catch (e) {}
+      if (lang !== 'ar' && lang !== 'en') {
+        var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+        lang = String(langs[0] || '').toLowerCase().indexOf('ar') === 0 ? 'ar' : 'en';
+      }
+      document.documentElement.lang = lang;
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip</a>
+
+  <header class="header" id="top">
+    <div class="header__inner">
+      <a class="brand" href="#top" data-i18n="hero.name">عبدالله شافي إدريس</a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#about" data-i18n="nav.about"></a>
+        <a href="#expertise" data-i18n="nav.expertise"></a>
+        <a href="#experience" data-i18n="nav.experience"></a>
+        <a href="#projects" data-i18n="nav.projects"></a>
+        <a href="#posts" data-i18n="nav.posts"></a>
+        <a href="#contact" data-i18n="nav.contact"></a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="lang-toggle" id="langToggle" type="button" data-i18n="ui.toggleLabel">English</button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav">
+          <span class="sr-only" data-i18n="ui.menu"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__inner container">
+        <div class="hero__text">
+          <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+          <h1 class="hero__name" data-i18n="hero.name"></h1>
+          <p class="hero__title" data-i18n="hero.title"></p>
+          <p class="hero__role" data-i18n="hero.role"></p>
+          <p class="hero__meta">
+            <span data-i18n="hero.location"></span>
+            <span class="dot" aria-hidden="true"></span>
+            <span data-i18n="hero.since"></span>
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--gold" data-link="linkedin" target="_blank" rel="noopener" data-i18n="hero.ctaPrimary"></a>
+            <a class="btn btn--ghost" href="#experience" data-i18n="hero.ctaSecondary"></a>
+          </div>
+        </div>
+        <figure class="hero__portrait">
+          <!-- الصورة الشخصية: ضع مسارها في content.json ← shared.images.profile -->
+          <div class="frame" id="profileFrame"></div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="kicker" data-i18n="about.kicker"></span>
+          <h2 data-i18n="about.heading"></h2>
+        </header>
+        <div class="about reveal">
+          <p class="about__body" data-i18n="about.body"></p>
+          <dl class="facts" id="aboutFacts"></dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise -->
+    <section class="section section--alt" id="expertise">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="kicker" data-i18n="expertise.kicker"></span>
+          <h2 data-i18n="expertise.heading"></h2>
+        </header>
+        <div class="cards" id="expertiseList"></div>
+      </div>
+    </section>
+
+    <!-- Experience timeline -->
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="kicker" data-i18n="experience.kicker"></span>
+          <h2 data-i18n="experience.heading"></h2>
+        </header>
+        <ol class="timeline" id="timeline"></ol>
+        <div class="training reveal">
+          <h3 data-i18n="experience.trainingHeading"></h3>
+          <p data-i18n="experience.training"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="kicker" data-i18n="projects.kicker"></span>
+          <h2 data-i18n="projects.heading"></h2>
+        </header>
+        <div class="projects" id="projectList"></div>
+      </div>
+    </section>
+
+    <!-- LinkedIn posts (from posts.json) -->
+    <section class="section" id="posts">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="kicker" data-i18n="posts.kicker"></span>
+          <h2 data-i18n="posts.heading"></h2>
+          <p class="section__intro" data-i18n="posts.intro"></p>
+        </header>
+        <div class="posts" id="postList"></div>
+        <p class="posts__more reveal">
+          <a class="link-arrow" data-link="linkedin" target="_blank" rel="noopener" data-i18n="posts.more"></a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact" id="contact">
+      <div class="container contact reveal">
+        <span class="kicker" data-i18n="contact.kicker"></span>
+        <h2 data-i18n="contact.heading"></h2>
+        <p class="contact__text" data-i18n="contact.text"></p>
+        <div class="contact__actions">
+          <a class="btn btn--gold" data-link="linkedin" target="_blank" rel="noopener" data-i18n="contact.linkedin"></a>
+          <!-- البريد الإلكتروني: يظهر تلقائيًا عند إضافته في content.json ← shared.links.email -->
+          <a class="btn btn--ghost" id="emailBtn" hidden data-i18n="contact.email"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> <span data-i18n="footer.rights"></span></p>
+      <p data-i18n="footer.location"></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

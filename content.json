@@ -1,0 +1,595 @@
+{
+  "shared": {
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/abdullah-shafi-idris-81188163/",
+      "email": "",
+      "zahSite": "https://zah.sa",
+      "zahInstagram": "https://www.instagram.com/zah_saudi/",
+      "synergySite": "https://synergyet.net",
+      "zahrbaba": ""
+    },
+    "images": {
+      "profile": "",
+      "projects": {
+        "zahrbaba": "",
+        "athar": "",
+        "merja": ""
+      }
+    }
+  },
+  "ar": {
+    "meta": {
+      "title": "عبدالله شافي إدريس | منتج ومطوّر محتوى ورائد أعمال",
+      "description": "عبدالله شافي إدريس — منتج ومطوّر محتوى ورائد أعمال، الشريك ومدير العمليات والتطوير في زاه للخدمات الإنتاجية السينمائية."
+    },
+    "ui": {
+      "toggleLabel": "English",
+      "toggleAria": "التبديل إلى الإنجليزية",
+      "menu": "القائمة",
+      "photoPlaceholder": "مكان الصورة الشخصية",
+      "workPlaceholder": "مكان صورة العمل",
+      "visit": "زيارة"
+    },
+    "nav": {
+      "about": "نبذة",
+      "expertise": "مجالات الخبرة",
+      "experience": "الخبرات",
+      "projects": "مشاريع مختارة",
+      "posts": "منشورات",
+      "contact": "تواصل"
+    },
+    "hero": {
+      "eyebrow": "الإنتاج · المحتوى · ريادة الأعمال",
+      "name": "عبدالله شافي إدريس",
+      "title": "منتج ومطوّر محتوى ورائد أعمال",
+      "role": "الشريك ومدير العمليات والتطوير في زاه",
+      "location": "المملكة العربية السعودية",
+      "since": "منذ 2002",
+      "ctaPrimary": "تواصل عبر لينكدإن",
+      "ctaSecondary": "استعرض المسيرة"
+    },
+    "about": {
+      "kicker": "01",
+      "heading": "نبذة",
+      "body": "مسيرة بدأت عام 2002 تجمع بين الإبداع والإنتاج وإدارة العمليات وتطوير الأعمال: الإدارة التحريرية، والإعلام المسموع والمرئي، وإدارة القنوات والفرق والمواهب، والتدريب الإعلامي، والإنتاج المستقل، وتطوير الأفلام والمحتوى، والتسويق وتطوير العلامات التجارية، والتجارة الإلكترونية، وتسهيل الاستثمار والتجارة الدولية، مع خبرة عملية في بيئتي الأعمال السعودية والإثيوبية.",
+      "facts": [
+        {
+          "label": "بداية المسيرة",
+          "value": "2002"
+        },
+        {
+          "label": "بيئات العمل",
+          "value": "السعودية · إثيوبيا"
+        },
+        {
+          "label": "الدور الحالي",
+          "value": "الشريك ومدير العمليات والتطوير — زاه"
+        }
+      ]
+    },
+    "expertise": {
+      "kicker": "02",
+      "heading": "مجالات الخبرة",
+      "items": [
+        {
+          "title": "الإنتاج وإدارة العمليات",
+          "text": "إدارة الإنتاج من الفكرة إلى التسليم، والتخطيط التشغيلي، وتنسيق فرق الإنتاج، وتطوير الإجراءات ورفع الكفاءة."
+        },
+        {
+          "title": "تطوير الأفلام والمحتوى",
+          "text": "تطوير القصص والنصوص والمعالجات للأفلام الوثائقية والطويلة، مع التركيز على القصص الإنسانية والثقافية."
+        },
+        {
+          "title": "الإعلام المسموع والمرئي",
+          "text": "الإدارة التحريرية، وإدارة البرامج والإنتاج التلفزيوني، والإنتاج المستقل."
+        },
+        {
+          "title": "القنوات والفرق والمواهب",
+          "text": "إدارة القنوات والفرق والمذيعين والمواهب، والتدريب الإعلامي."
+        },
+        {
+          "title": "التسويق والعلامات التجارية",
+          "text": "التسويق وتطوير العلامات التجارية والتجارة الإلكترونية."
+        },
+        {
+          "title": "الاستثمار والتجارة الدولية",
+          "text": "تأسيس الأعمال وتسهيل الاستثمار، والمشتريات والاستيراد والخدمات اللوجستية، في بيئتي الأعمال السعودية والإثيوبية."
+        }
+      ]
+    },
+    "experience": {
+      "kicker": "03",
+      "heading": "الخبرات",
+      "items": [
+        {
+          "years": "2024 — الآن",
+          "org": "زاه للخدمات الإنتاجية السينمائية",
+          "orgAlt": "Zah Production Services",
+          "location": "الرياض",
+          "roles": [
+            {
+              "title": "الشريك ومدير العمليات والتطوير",
+              "period": "يناير 2026 – الآن"
+            },
+            {
+              "title": "شريك مؤسس",
+              "period": "يوليو 2024 – الآن"
+            }
+          ],
+          "summary": "تقدّم زاه خدمات إدارة الإنتاج، وتوفير الكوادر الفنية، والخدمات اللوجستية، ودعم مشاريع الأفلام والإنتاج المرئي.",
+          "bullets": [
+            "قيادة العمليات وتطوير الأعمال",
+            "تطوير الإجراءات ورفع الكفاءة",
+            "التخطيط التشغيلي وتنسيق فرق الإنتاج",
+            "إدارة الإنتاج من الفكرة إلى التسليم"
+          ],
+          "links": [
+            {
+              "label": "zah.sa",
+              "key": "zahSite"
+            },
+            {
+              "label": "إنستغرام: zah_saudi",
+              "key": "zahInstagram"
+            }
+          ]
+        },
+        {
+          "years": "2021 — 2023",
+          "org": "عمل مستقل",
+          "roles": [
+            {
+              "title": "مطوّر أفلام ومحتوى",
+              "period": "2021 – 2023"
+            }
+          ],
+          "bullets": [
+            "تطوير المحتوى للأفلام الوثائقية والطويلة",
+            "تطوير القصص والنصوص والمعالجات",
+            "التركيز على القصص الإنسانية والثقافية والمحتوى السينمائي السعودي"
+          ]
+        },
+        {
+          "years": "2017 — 2021",
+          "org": "سينرجي للخدمات الاستشارية",
+          "orgAlt": "Synergy Consulting Services",
+          "location": "أديس أبابا، إثيوبيا",
+          "roles": [
+            {
+              "title": "المؤسس والرئيس التنفيذي",
+              "period": "مارس 2017 – ديسمبر 2021"
+            }
+          ],
+          "bullets": [
+            "تأسيس الأعمال وتسهيل الاستثمار",
+            "تنسيق المشتريات والاستيراد والخدمات اللوجستية",
+            "التنسيق مع الجهات الحكومية"
+          ],
+          "highlight": {
+            "heading": "أبرز العملاء: Kuwait Livestock & Agriculture PLC",
+            "intro": "في إطار عمل استشاري لصالح العميل، قاد عبر سينرجي:",
+            "items": [
+              "تأسيس المشروع واستخراج التراخيص",
+              "تسهيل الحصول على حقوق أكثر من 5,000 هكتار من الأراضي الزراعية",
+              "تنسيق استيراد 80 حاوية 40 قدمًا من المعدات والمواد بقيمة تتجاوز 15 مليون دولار، إضافة إلى أنظمة الري المحوري"
+            ]
+          },
+          "extra": [
+            "تصدير القهوة الإثيوبية المتخصصة (Guji, Yirgacheffe, Sidama)",
+            "إطلاق «مرجا» Merja: صحيفة إعلانية مجانية في إثيوبيا"
+          ],
+          "links": [
+            {
+              "label": "synergyet.net",
+              "key": "synergySite"
+            }
+          ]
+        },
+        {
+          "years": "2010 — 2021",
+          "org": "مؤسسة السويلم التجارية",
+          "roles": [
+            {
+              "title": "مدير التسويق",
+              "period": "نوفمبر 2010 – أكتوبر 2021"
+            }
+          ],
+          "bullets": [
+            "التسويق وتطوير العلامات التجارية والتجارة الإلكترونية",
+            "ومنها علامة «أصايل» للقهوة والبهارات، ومتجر «عطارة» الإلكتروني"
+          ]
+        },
+        {
+          "years": "2010 — 2015",
+          "org": "منتج تلفزيوني مستقل",
+          "location": "الرياض",
+          "roles": [
+            {
+              "title": "منتج تلفزيوني",
+              "period": "مارس 2010 – يونيو 2015"
+            }
+          ],
+          "bullets": [
+            "تطوير وإنتاج برامج تلفزيونية، ومنها برنامج «أثر» للشيخ محمد العريفي"
+          ]
+        },
+        {
+          "years": "2009 — 2010",
+          "org": "شركة الرشيد للإعلام",
+          "roles": [
+            {
+              "title": "مدير الإنتاج والتدريب الإعلامي",
+              "period": "فبراير 2009 – أغسطس 2010"
+            }
+          ]
+        },
+        {
+          "years": "2003 — 2009",
+          "org": "شبكة قنوات المجد",
+          "roles": [
+            {
+              "title": "إدارة البرامج والإنتاج التلفزيوني",
+              "period": "2003 – أكتوبر 2009"
+            }
+          ],
+          "summary": "تدرّج من الاتصالات والتنسيق إلى:",
+          "bullets": [
+            "مساعد مدير البرامج",
+            "إدارة البرامج النوعية",
+            "إدارة المذيعين الشباب",
+            "إدارة قناة المجد للأطفال، مع التنسيق مع راديو دال لتسجيل الأناشيد",
+            "إدارة البرامج التسجيلية"
+          ]
+        },
+        {
+          "years": "2002 — 2004",
+          "org": "شركة بث للإعلام",
+          "roles": [
+            {
+              "title": "سكرتير رئيس التحرير",
+              "period": "2002 – بداية 2004"
+            }
+          ],
+          "bullets": [
+            "ومنها تنسيق تسجيلات مجلة «صدى» الصوتية المرافقة لمجلة بث"
+          ]
+        }
+      ],
+      "trainingHeading": "التدريب",
+      "training": "دورات مكثفة من مركز المجد للتدريب الإعلامي."
+    },
+    "projects": {
+      "kicker": "04",
+      "heading": "مشاريع مختارة",
+      "items": [
+        {
+          "id": "zahrbaba",
+          "title": "زهر بابا",
+          "titleAlt": "ZahrBaba",
+          "tag": "برنامج على يوتيوب",
+          "text": "برنامج على يوتيوب بالعربية والأمهرية والأورومية، من ابتكاره وإعداده وتقديمه.",
+          "linkKey": "zahrbaba",
+          "featured": true
+        },
+        {
+          "id": "athar",
+          "title": "أثر",
+          "tag": "برنامج تلفزيوني",
+          "text": "برنامج تلفزيوني للشيخ محمد العريفي، ضمن أعمال الإنتاج التلفزيوني المستقل."
+        },
+        {
+          "id": "merja",
+          "title": "مرجا",
+          "titleAlt": "Merja",
+          "tag": "صحيفة إعلانية",
+          "text": "صحيفة إعلانية مجانية في إثيوبيا، أُطلقت ضمن أعمال سينرجي للخدمات الاستشارية."
+        }
+      ]
+    },
+    "posts": {
+      "kicker": "05",
+      "heading": "منشورات من لينكدإن",
+      "intro": "مختارات من منشوراتي على لينكدإن.",
+      "empty": "ستُعرض المنشورات هنا قريبًا.",
+      "more": "المزيد على لينكدإن"
+    },
+    "contact": {
+      "kicker": "06",
+      "heading": "تواصل",
+      "text": "للتعاون في مشاريع الإنتاج والمحتوى وتطوير الأعمال، يسعدني تواصلك عبر لينكدإن.",
+      "linkedin": "لينكدإن",
+      "email": "البريد الإلكتروني"
+    },
+    "footer": {
+      "rights": "عبدالله شافي إدريس",
+      "location": "المملكة العربية السعودية"
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "Abdullah Shafi Idris | Producer, Content Developer & Entrepreneur",
+      "description": "Abdullah Shafi Idris — producer, content developer and entrepreneur; Partner and Director of Operations & Development at Zah Production Services."
+    },
+    "ui": {
+      "toggleLabel": "العربية",
+      "toggleAria": "Switch to Arabic",
+      "menu": "Menu",
+      "photoPlaceholder": "Portrait placeholder",
+      "workPlaceholder": "Project image placeholder",
+      "visit": "Visit"
+    },
+    "nav": {
+      "about": "About",
+      "expertise": "Expertise",
+      "experience": "Experience",
+      "projects": "Projects",
+      "posts": "Posts",
+      "contact": "Contact"
+    },
+    "hero": {
+      "eyebrow": "Production · Content · Entrepreneurship",
+      "name": "Abdullah Shafi Idris",
+      "title": "Producer, Content Developer & Entrepreneur",
+      "role": "Partner and Director of Operations & Development at Zah",
+      "location": "Saudi Arabia",
+      "since": "Since 2002",
+      "ctaPrimary": "Connect on LinkedIn",
+      "ctaSecondary": "View career"
+    },
+    "about": {
+      "kicker": "01",
+      "heading": "About",
+      "body": "My career began in 2002 and brings together creative work, production, operations and business development. It spans editorial management, radio and television, managing channels, teams and talent, media training, independent production, film and content development, marketing and brand building, e-commerce, and facilitating investment and international trade — with hands-on experience in both the Saudi and Ethiopian business environments.",
+      "facts": [
+        {
+          "label": "Career start",
+          "value": "2002"
+        },
+        {
+          "label": "Markets",
+          "value": "Saudi Arabia · Ethiopia"
+        },
+        {
+          "label": "Current role",
+          "value": "Partner, Director of Operations & Development — Zah"
+        }
+      ]
+    },
+    "expertise": {
+      "kicker": "02",
+      "heading": "Expertise",
+      "items": [
+        {
+          "title": "Production & Operations",
+          "text": "Managing productions from concept to delivery, operational planning, coordinating production crews, and refining processes for efficiency."
+        },
+        {
+          "title": "Film & Content Development",
+          "text": "Developing stories, scripts and treatments for documentaries and feature films, with a focus on human and cultural stories."
+        },
+        {
+          "title": "Radio & Television",
+          "text": "Editorial management, programming and television production, and independent production."
+        },
+        {
+          "title": "Channels, Teams & Talent",
+          "text": "Managing channels, teams, presenters and talent, and delivering media training."
+        },
+        {
+          "title": "Marketing & Brands",
+          "text": "Marketing, brand development and e-commerce."
+        },
+        {
+          "title": "Investment & International Trade",
+          "text": "Business setup, investment facilitation, procurement, import and logistics across the Saudi and Ethiopian markets."
+        }
+      ]
+    },
+    "experience": {
+      "kicker": "03",
+      "heading": "Experience",
+      "items": [
+        {
+          "years": "2024 — Present",
+          "org": "Zah Production Services",
+          "location": "Riyadh",
+          "roles": [
+            {
+              "title": "Partner, Director of Operations & Development",
+              "period": "Jan 2026 – Present"
+            },
+            {
+              "title": "Co-founding Partner",
+              "period": "Jul 2024 – Present"
+            }
+          ],
+          "summary": "Zah provides production management, technical crew, logistics, and support for film and visual production projects.",
+          "bullets": [
+            "Leading operations and business development",
+            "Improving processes and operational efficiency",
+            "Operational planning and production crew coordination",
+            "Managing productions from concept to delivery"
+          ],
+          "links": [
+            {
+              "label": "zah.sa",
+              "key": "zahSite"
+            },
+            {
+              "label": "Instagram: zah_saudi",
+              "key": "zahInstagram"
+            }
+          ]
+        },
+        {
+          "years": "2021 — 2023",
+          "org": "Freelance",
+          "roles": [
+            {
+              "title": "Film & Content Developer",
+              "period": "2021 – 2023"
+            }
+          ],
+          "bullets": [
+            "Content development for documentary and feature films",
+            "Story, script and treatment development",
+            "A focus on human and cultural stories and Saudi cinematic content"
+          ]
+        },
+        {
+          "years": "2017 — 2021",
+          "org": "Synergy Consulting Services",
+          "location": "Addis Ababa, Ethiopia",
+          "roles": [
+            {
+              "title": "Founder & CEO",
+              "period": "Mar 2017 – Dec 2021"
+            }
+          ],
+          "bullets": [
+            "Business setup and investment facilitation",
+            "Coordinating procurement, imports and logistics",
+            "Liaising with government authorities"
+          ],
+          "highlight": {
+            "heading": "Key client: Kuwait Livestock & Agriculture PLC",
+            "intro": "As an advisory engagement on the client’s behalf, he led through Synergy:",
+            "items": [
+              "Establishing the project and securing its licenses",
+              "Facilitating land rights for more than 5,000 hectares of agricultural land",
+              "Coordinating the import of 80 forty-foot containers of equipment and materials worth over USD 15 million, along with center-pivot irrigation systems"
+            ]
+          },
+          "extra": [
+            "Exporting Ethiopian specialty coffee (Guji, Yirgacheffe, Sidama)",
+            "Launching Merja, a free advertising newspaper in Ethiopia"
+          ],
+          "links": [
+            {
+              "label": "synergyet.net",
+              "key": "synergySite"
+            }
+          ]
+        },
+        {
+          "years": "2010 — 2021",
+          "org": "Al-Suwailem Trading Establishment",
+          "roles": [
+            {
+              "title": "Marketing Manager",
+              "period": "Nov 2010 – Oct 2021"
+            }
+          ],
+          "bullets": [
+            "Marketing, brand development and e-commerce",
+            "Including the Asayel coffee and spices brand and the Attara online store"
+          ]
+        },
+        {
+          "years": "2010 — 2015",
+          "org": "Independent Television Producer",
+          "location": "Riyadh",
+          "roles": [
+            {
+              "title": "Television Producer",
+              "period": "Mar 2010 – Jun 2015"
+            }
+          ],
+          "bullets": [
+            "Developed and produced television programs, including “Athar” with Sheikh Mohammed Al-Arifi"
+          ]
+        },
+        {
+          "years": "2009 — 2010",
+          "org": "Al-Rashid Media",
+          "roles": [
+            {
+              "title": "Production & Media Training Manager",
+              "period": "Feb 2009 – Aug 2010"
+            }
+          ]
+        },
+        {
+          "years": "2003 — 2009",
+          "org": "Al-Majd TV Network",
+          "roles": [
+            {
+              "title": "Programming & Television Production",
+              "period": "2003 – Oct 2009"
+            }
+          ],
+          "summary": "Progressed from communications and coordination to:",
+          "bullets": [
+            "Assistant Programming Manager",
+            "Managing specialty programs",
+            "Managing young presenters",
+            "Managing Al-Majd Kids channel, working with Dal Radio on nasheed recordings",
+            "Managing documentary programs"
+          ]
+        },
+        {
+          "years": "2002 — 2004",
+          "org": "Bath Media",
+          "roles": [
+            {
+              "title": "Secretary to the Editor-in-Chief",
+              "period": "2002 – early 2004"
+            }
+          ],
+          "bullets": [
+            "Including coordinating recordings for Sada, the audio magazine accompanying Bath magazine"
+          ]
+        }
+      ],
+      "trainingHeading": "Training",
+      "training": "Intensive courses at Al-Majd Media Training Center."
+    },
+    "projects": {
+      "kicker": "04",
+      "heading": "Selected Projects",
+      "items": [
+        {
+          "id": "zahrbaba",
+          "title": "ZahrBaba",
+          "titleAlt": "زهر بابا",
+          "tag": "YouTube program",
+          "text": "A YouTube program in Arabic, Amharic and Oromo — created, developed and presented by Abdullah.",
+          "linkKey": "zahrbaba",
+          "featured": true
+        },
+        {
+          "id": "athar",
+          "title": "Athar",
+          "titleAlt": "أثر",
+          "tag": "Television program",
+          "text": "A television program with Sheikh Mohammed Al-Arifi, part of his independent television production work."
+        },
+        {
+          "id": "merja",
+          "title": "Merja",
+          "titleAlt": "مرجا",
+          "tag": "Advertising newspaper",
+          "text": "A free advertising newspaper in Ethiopia, launched as part of Synergy Consulting Services."
+        }
+      ]
+    },
+    "posts": {
+      "kicker": "05",
+      "heading": "From LinkedIn",
+      "intro": "Selected posts from my LinkedIn.",
+      "empty": "Posts will appear here soon.",
+      "more": "More on LinkedIn"
+    },
+    "contact": {
+      "kicker": "06",
+      "heading": "Contact",
+      "text": "For production, content and business development collaborations, feel free to reach out on LinkedIn.",
+      "linkedin": "LinkedIn",
+      "email": "Email"
+    },
+    "footer": {
+      "rights": "Abdullah Shafi Idris",
+      "location": "Saudi Arabia"
+    }
+  }
+}

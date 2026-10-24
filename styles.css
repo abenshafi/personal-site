@@ -1,14 +1,20 @@
 /* ===== Tokens ===== */
 :root {
-  --bg: #12160f;
-  --bg-alt: #171c13;
-  --surface: #1c2218;
-  --line: rgba(184, 164, 106, 0.18);
-  --line-soft: rgba(236, 235, 227, 0.08);
-  --text: #ecebe3;
-  --muted: #9a9c8e;
-  --gold: #b8a46a;
-  --gold-soft: #d0bf8a;
+  /* Light (default): sand + palm green */
+  --bg: #f6f1e7;
+  --bg-alt: #efe9dc;
+  --surface: #fffdf8;
+  --text: #18231c;
+  --text-soft: #2c3830;
+  --muted: #5f6a62;
+  --gold: #2f4a3a;
+  --gold-soft: #3f6350;
+  --bg-rgb: 246, 241, 231;
+  --accent-rgb: 47, 74, 58;
+  --text-rgb: 24, 35, 28;
+  --line: rgba(var(--accent-rgb), 0.18);
+  --line-soft: rgba(var(--text-rgb), 0.08);
+  color-scheme: light;
 
   --font-display: "Cormorant Garamond", "IBM Plex Sans Arabic", Georgia, serif;
   --font-body: "Inter", "IBM Plex Sans Arabic", system-ui, sans-serif;
@@ -17,6 +23,24 @@
   --gutter: clamp(16px, 4vw, 40px);
   --radius: 2px;
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Dark: olive + muted gold, for visitors whose device is in dark mode */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12160f; --bg-alt: #171c13; --surface: #1c2218;
+    --text: #ecebe3; --text-soft: #d6d6cb; --muted: #9a9c8e;
+    --gold: #b8a46a; --gold-soft: #d0bf8a;
+    --bg-rgb: 18, 22, 15; --accent-rgb: 184, 164, 106; --text-rgb: 236, 235, 227;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12160f; --bg-alt: #171c13; --surface: #1c2218;
+  --text: #ecebe3; --text-soft: #d6d6cb; --muted: #9a9c8e;
+  --gold: #b8a46a; --gold-soft: #d0bf8a;
+  --bg-rgb: 18, 22, 15; --accent-rgb: 184, 164, 106; --text-rgb: 236, 235, 227;
+  color-scheme: dark;
 }
 
 html[lang="ar"] {
@@ -82,7 +106,7 @@ ul, ol { margin: 0; padding: 0; }
   border-bottom: 1px solid transparent;
 }
 .header.is-scrolled, .header.is-open {
-  background: rgba(18, 22, 15, 0.86);
+  background: rgba(var(--bg-rgb), 0.86);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom-color: var(--line-soft);
@@ -137,7 +161,7 @@ html[lang="en"] .nav a { text-transform: uppercase; font-size: 0.75rem; letter-s
 .btn--gold { background: var(--gold); color: var(--bg); font-weight: 500; }
 .btn--gold:hover { background: var(--gold-soft); border-color: var(--gold-soft); }
 .btn--ghost { color: var(--gold); }
-.btn--ghost:hover { background: rgba(184, 164, 106, 0.1); }
+.btn--ghost:hover { background: rgba(var(--accent-rgb), 0.1); }
 
 .link-arrow {
   display: inline-flex; align-items: center; gap: 8px;
@@ -155,14 +179,14 @@ html[lang="en"] .nav a { text-transform: uppercase; font-size: 0.75rem; letter-s
   position: relative; min-height: 100vh; min-height: 100svh;
   display: flex; align-items: center; padding: 120px 0 80px;
   background:
-    radial-gradient(ellipse 60% 50% at 75% 40%, rgba(184, 164, 106, 0.09), transparent 70%),
-    radial-gradient(ellipse 80% 60% at 0% 100%, rgba(184, 164, 106, 0.04), transparent 70%),
+    radial-gradient(ellipse 60% 50% at 75% 40%, rgba(var(--accent-rgb), 0.09), transparent 70%),
+    radial-gradient(ellipse 80% 60% at 0% 100%, rgba(var(--accent-rgb), 0.04), transparent 70%),
     var(--bg);
 }
 [dir="rtl"] .hero {
   background:
-    radial-gradient(ellipse 60% 50% at 25% 40%, rgba(184, 164, 106, 0.09), transparent 70%),
-    radial-gradient(ellipse 80% 60% at 100% 100%, rgba(184, 164, 106, 0.04), transparent 70%),
+    radial-gradient(ellipse 60% 50% at 25% 40%, rgba(var(--accent-rgb), 0.09), transparent 70%),
+    radial-gradient(ellipse 80% 60% at 100% 100%, rgba(var(--accent-rgb), 0.04), transparent 70%),
     var(--bg);
 }
 .hero::after {
@@ -210,7 +234,7 @@ html[lang="ar"] .hero__name { font-size: clamp(2.6rem, 6vw, 4.4rem); line-height
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
   width: 100%; height: 100%; text-align: center; padding: 20px;
   background:
-    repeating-linear-gradient(135deg, rgba(184, 164, 106, 0.03) 0 1px, transparent 1px 14px),
+    repeating-linear-gradient(135deg, rgba(var(--accent-rgb), 0.03) 0 1px, transparent 1px 14px),
     var(--surface);
   border: 1px dashed var(--line); color: var(--muted); font-size: 0.85rem;
 }
@@ -256,7 +280,7 @@ html[lang="en"] .facts dt { text-transform: uppercase; }
   border-bottom: 1px solid var(--line-soft); border-inline-end: 1px solid var(--line-soft);
   transition: background 0.4s var(--ease);
 }
-.card:hover { background: rgba(184, 164, 106, 0.04); }
+.card:hover { background: rgba(var(--accent-rgb), 0.04); }
 .card__num { font-family: "Cormorant Garamond", serif; color: var(--gold); font-size: 1rem; letter-spacing: 0.1em; }
 .card__title { margin-top: 18px; font-family: var(--font-display); font-size: 1.45rem; line-height: 1.35; }
 .card__text { margin-top: 12px; color: var(--muted); font-size: 0.95rem; }
@@ -295,7 +319,7 @@ html[lang="ar"] .tl__years { font-family: var(--font-body); font-size: 0.9rem; }
 .tl__role-period { color: var(--muted); font-size: 0.85rem; }
 .tl__summary { margin-top: 14px; color: var(--muted); }
 .tl__list { margin-top: 12px; list-style: none; display: grid; gap: 6px; }
-.tl__list li { position: relative; padding-inline-start: 20px; color: #d6d6cb; }
+.tl__list li { position: relative; padding-inline-start: 20px; color: var(--text-soft); }
 .tl__list li::before {
   content: ""; position: absolute; inset-inline-start: 0; top: 0.85em; width: 8px; height: 1px; background: var(--gold);
 }
@@ -345,7 +369,7 @@ html[lang="en"] .project__tag { text-transform: uppercase; }
 
 /* Contact */
 .section--contact {
-  background: radial-gradient(ellipse 60% 70% at 50% 100%, rgba(184, 164, 106, 0.08), transparent 70%), var(--bg-alt);
+  background: radial-gradient(ellipse 60% 70% at 50% 100%, rgba(var(--accent-rgb), 0.08), transparent 70%), var(--bg-alt);
   border-top: 1px solid var(--line-soft);
 }
 .contact { text-align: center; max-width: 720px; }
@@ -378,7 +402,7 @@ html[lang="en"] .project__tag { text-transform: uppercase; }
   .nav {
     position: absolute; top: 100%; inset-inline: 0;
     flex-direction: column; gap: 0; padding: 8px var(--gutter) 20px;
-    background: rgba(18, 22, 15, 0.97); border-bottom: 1px solid var(--line-soft);
+    background: rgba(var(--bg-rgb), 0.97); border-bottom: 1px solid var(--line-soft);
     opacity: 0; visibility: hidden; transform: translateY(-8px);
     transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
   }

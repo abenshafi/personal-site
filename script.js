@@ -103,6 +103,19 @@
     return ul;
   }
 
+  // Logos are one-color marks (transparent PNG) tinted by the theme through CSS masks.
+  function logoMark(key, name, className) {
+    var logos = (content.shared.images && content.shared.images.logos) || {};
+    var src = logos[key];
+    if (!src) return null;
+    var m = el('span', className);
+    m.style.setProperty('--logo', 'url("' + src + '")');
+    m.setAttribute('role', 'img');
+    m.setAttribute('aria-label', name);
+    m.title = name;
+    return m;
+  }
+
   function renderTimeline(t) {
     var ol = document.getElementById('timeline');
     ol.replaceChildren();
@@ -112,6 +125,10 @@
       li.appendChild(el('span', 'tl__years', item.years));
 
       var body = el('div', 'tl__body');
+      if (item.logo) {
+        var logo = logoMark(item.logo, item.org, 'tl__logo');
+        if (logo) body.appendChild(logo);
+      }
       var head = el('div', 'tl__head');
       head.appendChild(el('h3', 'tl__org', item.org));
       if (item.orgAlt) {
@@ -133,6 +150,15 @@
 
       if (item.summary) body.appendChild(el('p', 'tl__summary', item.summary));
       if (item.bullets && item.bullets.length) body.appendChild(bulletList(item.bullets, 'tl__list'));
+
+      if (item.brands && item.brands.length) {
+        var brands = el('div', 'tl__brands');
+        item.brands.forEach(function (b) {
+          var mark = logoMark(b.logo, b.name, 'tl__brand');
+          if (mark) brands.appendChild(mark);
+        });
+        if (brands.children.length) body.appendChild(brands);
+      }
 
       if (item.highlight) {
         var h = el('div', 'tl__highlight');

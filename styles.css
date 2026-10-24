@@ -439,3 +439,16 @@ html[lang="en"] .project__tag { text-transform: uppercase; }
 }
 
 .hero__role:empty { display: none; }
+
+/* ===== Logos (one-color marks, tinted by theme) ===== */
+.tl__logo, .tl__brand {
+  display: block; background: var(--text);
+  -webkit-mask: var(--logo) no-repeat; mask: var(--logo) no-repeat;
+  -webkit-mask-size: contain; mask-size: contain;
+  -webkit-mask-position: right center; mask-position: right center;
+}
+html[dir="ltr"] .tl__logo, html[dir="ltr"] .tl__brand { -webkit-mask-position: left center; mask-position: left center; }
+.tl__logo { width: 150px; height: 46px; margin-bottom: 14px; }
+.tl__brands { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--line-soft); }
+.tl__brand { width: 96px; height: 52px; background: var(--muted); -webkit-mask-position: center; mask-position: center; transition: background 0.2s; }
+.tl__brand:hover { background: var(--gold); }

@@ -9,10 +9,15 @@
       "zahrbaba": ""
     },
     "images": {
-      "profile": "",
+      "profile": "images/profile.jpg",
       "projects": {
         "zahrbaba": "",
         "merja": ""
+      },
+      "logos": {
+        "bharat": "images/logos/bharat-more.png",
+        "asayel": "images/logos/asayel.png",
+        "attarah": "images/logos/attarah.png"
       }
     }
   },
@@ -62,7 +67,7 @@
         },
         {
           "label": "الدور الحالي",
-          "value": "مدير العمليات والتطوير — زاه"
+          "value": "مدير العمليات والتطوير — زاه · مدير التسويق — بهارات وأكثر"
         }
       ]
     },
@@ -134,6 +139,38 @@
           ]
         },
         {
+          "years": "2010 — الآن",
+          "org": "بهارات وأكثر",
+          "orgAlt": "Bharat & More",
+          "logo": "bharat",
+          "roles": [
+            {
+              "title": "مدير التسويق — بهارات وأكثر",
+              "period": "حاليًا"
+            },
+            {
+              "title": "مدير التسويق — مؤسسة السويلم التجارية",
+              "period": "نوفمبر 2010 – أكتوبر 2021"
+            }
+          ],
+          "summary": "بهارات وأكثر هي المرحلة التي امتدت إليها أعمال مؤسسة السويلم التجارية، ويعمل فيها عبدالله مديرًا للتسويق بالتوازي مع عمله مديرًا للعمليات والتطوير في زاه.",
+          "bullets": [
+            "تطوير العلامات والمنتجات والتسويق والتجارة الإلكترونية",
+            "العمل على علامة «أصايل» للقهوة والبهارات، وعلامة «عطارة» للمنتجات ذات الصلة",
+            "تملك بهارات وأكثر متجر «يزاف» الإلكتروني، الذي يجري تجهيزه حاليًا للإطلاق"
+          ],
+          "brands": [
+            {
+              "name": "أصايل",
+              "logo": "asayel"
+            },
+            {
+              "name": "عطارة",
+              "logo": "attarah"
+            }
+          ]
+        },
+        {
           "years": "2021 — 2023",
           "org": "عمل مستقل",
           "roles": [
@@ -182,20 +219,6 @@
               "label": "synergyet.net",
               "key": "synergySite"
             }
-          ]
-        },
-        {
-          "years": "2010 — 2021",
-          "org": "مؤسسة السويلم التجارية",
-          "roles": [
-            {
-              "title": "مدير التسويق",
-              "period": "نوفمبر 2010 – أكتوبر 2021"
-            }
-          ],
-          "bullets": [
-            "التسويق وتطوير العلامات التجارية والتجارة الإلكترونية",
-            "ومنها علامة «أصايل» للقهوة والبهارات، ومتجر «عطارة» الإلكتروني"
           ]
         },
         {
@@ -344,7 +367,7 @@
         },
         {
           "label": "Current role",
-          "value": "Director of Operations & Development — Zah"
+          "value": "Director of Operations & Development — Zah · Marketing Manager — Bharat & More"
         }
       ]
     },
@@ -415,6 +438,38 @@
           ]
         },
         {
+          "years": "2010 — Present",
+          "org": "Bharat & More",
+          "orgAlt": "بهارات وأكثر",
+          "logo": "bharat",
+          "roles": [
+            {
+              "title": "Marketing Manager — Bharat & More",
+              "period": "Present"
+            },
+            {
+              "title": "Marketing Manager — Alswylem Trading Establishment",
+              "period": "Nov 2010 – Oct 2021"
+            }
+          ],
+          "summary": "Bharat & More is the next stage of Alswylem Trading Establishment's business. Abdullah serves as its Marketing Manager, alongside his role as Director of Operations & Development at Zah.",
+          "bullets": [
+            "Brand and product development, marketing and e-commerce",
+            "Work on the Asayel coffee and spices brand and the Attarah brand for related products",
+            "Bharat & More owns the Yazaf online store, currently being prepared for launch"
+          ],
+          "brands": [
+            {
+              "name": "Asayel",
+              "logo": "asayel"
+            },
+            {
+              "name": "Attarah",
+              "logo": "attarah"
+            }
+          ]
+        },
+        {
           "years": "2021 — 2023",
           "org": "Freelance",
           "roles": [
@@ -462,20 +517,6 @@
               "label": "synergyet.net",
               "key": "synergySite"
             }
-          ]
-        },
-        {
-          "years": "2010 — 2021",
-          "org": "Al-Suwailem Trading Establishment",
-          "roles": [
-            {
-              "title": "Marketing Manager",
-              "period": "Nov 2010 – Oct 2021"
-            }
-          ],
-          "bullets": [
-            "Marketing, brand development and e-commerce",
-            "Including the Asayel coffee and spices brand and the Attara online store"
           ]
         },
         {

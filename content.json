@@ -232,7 +232,7 @@
           },
           "extra": [
             "تصدير القهوة الإثيوبية المتخصصة (Guji, Yirgacheffe, Sidama)",
-            "إطلاق «مرجا» Merja: صحيفة إعلانية مجانية في إثيوبيا"
+            "إطلاق «مرجا» Mereja: صحيفة إعلانية مجانية في إثيوبيا"
           ],
           "links": [
             {
@@ -317,7 +317,7 @@
         {
           "id": "merja",
           "title": "مرجا",
-          "titleAlt": "Merja",
+          "titleAlt": "Mereja",
           "tag": "صحيفة إعلانية",
           "text": "صحيفة إعلانية مجانية في إثيوبيا، أُطلقت ضمن أعمال سينرجي للخدمات الاستشارية.",
           "logo": "merja"
@@ -547,7 +547,7 @@
           },
           "extra": [
             "Exporting Ethiopian specialty coffee (Guji, Yirgacheffe, Sidama)",
-            "Launching Merja, a free advertising newspaper in Ethiopia"
+            "Launching Mereja, a free advertising newspaper in Ethiopia"
           ],
           "links": [
             {
@@ -631,7 +631,7 @@
         },
         {
           "id": "merja",
-          "title": "Merja",
+          "title": "Mereja",
           "titleAlt": "مرجا",
           "tag": "Advertising newspaper",
           "text": "A free advertising newspaper in Ethiopia, launched as part of Synergy Consulting Services.",

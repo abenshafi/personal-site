@@ -20,7 +20,7 @@
   "ar": {
     "meta": {
       "title": "عبدالله شافي إدريس | منتج ومطوّر محتوى ورائد أعمال",
-      "description": "عبدالله شافي إدريس — منتج ومطوّر محتوى ورائد أعمال، الشريك ومدير العمليات والتطوير في زاه للخدمات الإنتاجية السينمائية."
+      "description": "عبدالله شافي إدريس — منتج ومطوّر محتوى ورائد أعمال، مدير العمليات والتطوير في زاه للخدمات الإنتاجية السينمائية."
     },
     "ui": {
       "toggleLabel": "English",
@@ -42,7 +42,7 @@
       "eyebrow": "الإنتاج · المحتوى · ريادة الأعمال",
       "name": "عبدالله شافي إدريس",
       "title": "منتج ومطوّر محتوى ورائد أعمال",
-      "role": "",
+      "role": "مدير العمليات والتطوير في زاه",
       "location": "المملكة العربية السعودية",
       "since": "منذ 2002",
       "ctaPrimary": "تواصل عبر لينكدإن",
@@ -63,7 +63,7 @@
         },
         {
           "label": "الدور الحالي",
-          "value": "الشريك ومدير العمليات والتطوير — زاه"
+          "value": "مدير العمليات والتطوير — زاه"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "location": "الرياض",
           "roles": [
             {
-              "title": "الشريك ومدير العمليات والتطوير",
+              "title": "مدير العمليات والتطوير",
               "period": "يناير 2026 – الآن"
             },
             {
@@ -302,7 +302,7 @@
   "en": {
     "meta": {
       "title": "Abdullah Shafi Idris | Producer, Content Developer & Entrepreneur",
-      "description": "Abdullah Shafi Idris — producer, content developer and entrepreneur; Partner and Director of Operations & Development at Zah Production Services."
+      "description": "Abdullah Shafi Idris — producer, content developer and entrepreneur; Director of Operations & Development at Zah Production Services."
     },
     "ui": {
       "toggleLabel": "العربية",
@@ -324,7 +324,7 @@
       "eyebrow": "Production · Content · Entrepreneurship",
       "name": "Abdullah Shafi Idris",
       "title": "Producer, Content Developer & Entrepreneur",
-      "role": "",
+      "role": "Director of Operations & Development at Zah",
       "location": "Saudi Arabia",
       "since": "Since 2002",
       "ctaPrimary": "Connect on LinkedIn",
@@ -345,7 +345,7 @@
         },
         {
           "label": "Current role",
-          "value": "Partner, Director of Operations & Development — Zah"
+          "value": "Director of Operations & Development — Zah"
         }
       ]
     },
@@ -389,11 +389,11 @@
           "location": "Riyadh",
           "roles": [
             {
-              "title": "Partner, Director of Operations & Development",
+              "title": "Director of Operations & Development",
               "period": "Jan 2026 – Present"
             },
             {
-              "title": "Co-founding Partner",
+              "title": "Co-Founder",
               "period": "Jul 2024 – Present"
             }
           ],

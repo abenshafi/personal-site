@@ -413,3 +413,5 @@ html[lang="en"] .project__tag { text-transform: uppercase; }
   .hero__cta .btn { flex: 1 1 100%; }
   .footer__inner { flex-direction: column; text-align: center; align-items: center; }
 }
+
+.hero__role:empty { display: none; }

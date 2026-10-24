@@ -42,7 +42,7 @@
       "eyebrow": "الإنتاج · المحتوى · ريادة الأعمال",
       "name": "عبدالله شافي إدريس",
       "title": "منتج ومطوّر محتوى ورائد أعمال",
-      "role": "الشريك ومدير العمليات والتطوير في زاه",
+      "role": "",
       "location": "المملكة العربية السعودية",
       "since": "منذ 2002",
       "ctaPrimary": "تواصل عبر لينكدإن",
@@ -210,7 +210,7 @@
             }
           ],
           "bullets": [
-            "تطوير وإنتاج برامج تلفزيونية، ومنها برنامج «أثر» للشيخ محمد العريفي"
+            "تطوير وإنتاج برامج تلفزيونية بالتعاون مع جهات إعلامية وفرق إنتاج"
           ]
         },
         {
@@ -272,12 +272,6 @@
           "featured": true
         },
         {
-          "id": "athar",
-          "title": "أثر",
-          "tag": "برنامج تلفزيوني",
-          "text": "برنامج تلفزيوني للشيخ محمد العريفي، ضمن أعمال الإنتاج التلفزيوني المستقل."
-        },
-        {
           "id": "merja",
           "title": "مرجا",
           "titleAlt": "Merja",
@@ -330,7 +324,7 @@
       "eyebrow": "Production · Content · Entrepreneurship",
       "name": "Abdullah Shafi Idris",
       "title": "Producer, Content Developer & Entrepreneur",
-      "role": "Partner and Director of Operations & Development at Zah",
+      "role": "",
       "location": "Saudi Arabia",
       "since": "Since 2002",
       "ctaPrimary": "Connect on LinkedIn",
@@ -496,7 +490,7 @@
             }
           ],
           "bullets": [
-            "Developed and produced television programs, including “Athar” with Sheikh Mohammed Al-Arifi"
+            "Developed and produced television programs with media partners and production teams"
           ]
         },
         {
@@ -556,13 +550,6 @@
           "text": "A YouTube program in Arabic, Amharic and Oromo — created, developed and presented by Abdullah.",
           "linkKey": "zahrbaba",
           "featured": true
-        },
-        {
-          "id": "athar",
-          "title": "Athar",
-          "titleAlt": "أثر",
-          "tag": "Television program",
-          "text": "A television program with Sheikh Mohammed Al-Arifi, part of his independent television production work."
         },
         {
           "id": "merja",

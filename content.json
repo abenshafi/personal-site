@@ -6,7 +6,9 @@
       "zahSite": "https://zah.sa",
       "zahInstagram": "https://www.instagram.com/zah_saudi/",
       "synergySite": "https://synergyet.net",
-      "zahrbaba": ""
+      "zahrbaba": "",
+      "yazaf": "",
+      "_yazafPending": "https://salla.sa/yezaf"
     },
     "images": {
       "profile": "images/profile.jpg",
@@ -17,7 +19,10 @@
       "logos": {
         "bharat": "images/logos/bharat-more.png",
         "asayel": "images/logos/asayel.png",
-        "attarah": "images/logos/attarah.png"
+        "attarah": "images/logos/attarah.png",
+        "alswylem": "images/logos/alswylem.png",
+        "merja": "images/logos/merja.png",
+        "synergy": "images/logos/synergy.png"
       }
     }
   },
@@ -142,11 +147,10 @@
           "years": "2010 — الآن",
           "org": "بهارات وأكثر",
           "orgAlt": "Bharat & More",
-          "logo": "bharat",
           "roles": [
             {
               "title": "مدير التسويق — بهارات وأكثر",
-              "period": "حاليًا"
+              "period": "2021 – الآن"
             },
             {
               "title": "مدير التسويق — مؤسسة السويلم التجارية",
@@ -167,6 +171,22 @@
             {
               "name": "عطارة",
               "logo": "attarah"
+            }
+          ],
+          "logos": [
+            {
+              "key": "bharat",
+              "name": "بهارات وأكثر"
+            },
+            {
+              "key": "alswylem",
+              "name": "مؤسسة السويلم التجارية"
+            }
+          ],
+          "links": [
+            {
+              "key": "yazaf",
+              "label": "يزاف"
             }
           ]
         },
@@ -219,7 +239,8 @@
               "label": "synergyet.net",
               "key": "synergySite"
             }
-          ]
+          ],
+          "logo": "synergy"
         },
         {
           "years": "2010 — 2015",
@@ -298,7 +319,8 @@
           "title": "مرجا",
           "titleAlt": "Merja",
           "tag": "صحيفة إعلانية",
-          "text": "صحيفة إعلانية مجانية في إثيوبيا، أُطلقت ضمن أعمال سينرجي للخدمات الاستشارية."
+          "text": "صحيفة إعلانية مجانية في إثيوبيا، أُطلقت ضمن أعمال سينرجي للخدمات الاستشارية.",
+          "logo": "merja"
         }
       ]
     },
@@ -441,11 +463,10 @@
           "years": "2010 — Present",
           "org": "Bharat & More",
           "orgAlt": "بهارات وأكثر",
-          "logo": "bharat",
           "roles": [
             {
               "title": "Marketing Manager — Bharat & More",
-              "period": "Present"
+              "period": "2021 – Present"
             },
             {
               "title": "Marketing Manager — Alswylem Trading Establishment",
@@ -466,6 +487,22 @@
             {
               "name": "Attarah",
               "logo": "attarah"
+            }
+          ],
+          "logos": [
+            {
+              "key": "bharat",
+              "name": "Bharat & More"
+            },
+            {
+              "key": "alswylem",
+              "name": "Alswylem Trading Establishment"
+            }
+          ],
+          "links": [
+            {
+              "key": "yazaf",
+              "label": "Yazaf"
             }
           ]
         },
@@ -517,7 +554,8 @@
               "label": "synergyet.net",
               "key": "synergySite"
             }
-          ]
+          ],
+          "logo": "synergy"
         },
         {
           "years": "2010 — 2015",
@@ -596,7 +634,8 @@
           "title": "Merja",
           "titleAlt": "مرجا",
           "tag": "Advertising newspaper",
-          "text": "A free advertising newspaper in Ethiopia, launched as part of Synergy Consulting Services."
+          "text": "A free advertising newspaper in Ethiopia, launched as part of Synergy Consulting Services.",
+          "logo": "merja"
         }
       ]
     },

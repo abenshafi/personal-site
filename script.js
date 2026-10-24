@@ -125,9 +125,16 @@
       li.appendChild(el('span', 'tl__years', item.years));
 
       var body = el('div', 'tl__body');
-      if (item.logo) {
-        var logo = logoMark(item.logo, item.org, 'tl__logo');
-        if (logo) body.appendChild(logo);
+      var logoItems = item.logos || (item.logo ? [{ key: item.logo, name: item.org }] : []);
+      if (logoItems.length) {
+        var logoRow = el('div', 'tl__logos');
+        logoItems.forEach(function (l) {
+          var m = logoMark(l.key, l.name, 'tl__logo');
+          if (!m) return;
+          if (logoRow.children.length) logoRow.appendChild(el('span', 'tl__sep'));
+          logoRow.appendChild(m);
+        });
+        if (logoRow.children.length) body.appendChild(logoRow);
       }
       var head = el('div', 'tl__head');
       head.appendChild(el('h3', 'tl__org', item.org));
@@ -197,7 +204,9 @@
       var card = el('article', 'project reveal' + (p.featured ? ' project--featured' : ''));
       var fig = el('figure', 'project__media');
       // صورة العمل: ضع مسارها في content.json ← shared.images.projects
-      fig.appendChild(media(images[p.id], p.title, t.ui.workPlaceholder));
+      var plogo = !images[p.id] && p.logo ? logoMark(p.logo, p.title, 'project__logo') : null;
+      if (plogo) { fig.classList.add('project__media--logo'); fig.appendChild(plogo); }
+      else fig.appendChild(media(images[p.id], p.title, t.ui.workPlaceholder));
       card.appendChild(fig);
 
       var body = el('div', 'project__body');

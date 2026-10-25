@@ -22,7 +22,8 @@
         "attarah": "images/logos/attarah.png",
         "alswylem": "images/logos/alswylem.png",
         "merja": "images/logos/merja.png",
-        "synergy": "images/logos/synergy.png"
+        "synergy": "images/logos/synergy.png",
+        "zah": "images/logos/zah.png"
       }
     }
   },
@@ -141,7 +142,8 @@
               "label": "إنستغرام: zah_saudi",
               "key": "zahInstagram"
             }
-          ]
+          ],
+          "logo": "zah"
         },
         {
           "years": "2010 — الآن",
@@ -457,7 +459,8 @@
               "label": "Instagram: zah_saudi",
               "key": "zahInstagram"
             }
-          ]
+          ],
+          "logo": "zah"
         },
         {
           "years": "2010 — Present",

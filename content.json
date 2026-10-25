@@ -25,6 +25,24 @@
         "synergy": "images/logos/synergy.png",
         "zah": "images/logos/zah.png",
         "alrasheed": "images/logos/alrasheed.png"
+      },
+      "galleries": {
+        "flora": [
+          "images/work/flora-powder.jpg",
+          "images/work/flora-flower.jpg",
+          "images/work/flora-rouge.jpg",
+          "images/work/flora-honey.jpg"
+        ]
+      }
+    },
+    "media": {
+      "showreel": {
+        "src": "media/showreel.mp4",
+        "poster": "images/work/showreel-poster.jpg"
+      },
+      "flora": {
+        "src": "media/flora-vertical.mp4",
+        "poster": "images/work/flora-poster.jpg"
       }
     }
   },
@@ -39,7 +57,8 @@
       "menu": "القائمة",
       "photoPlaceholder": "مكان الصورة الشخصية",
       "workPlaceholder": "مكان صورة العمل",
-      "visit": "زيارة"
+      "visit": "زيارة",
+      "galleryLabel": "صور المنتجات"
     },
     "nav": {
       "about": "نبذة",
@@ -310,13 +329,31 @@
       "heading": "مشاريع مختارة",
       "items": [
         {
+          "id": "shafiz",
+          "title": "Shafiz Media",
+          "tag": "علامة إنتاج شخصية · شوريل",
+          "text": "Shafiz Media هي علامة عبدالله الشخصية للإنتاج. يضم الشوريل مقتطفات من أعمال تصوير في أكثر من 40 دولة، منها إثيوبيا وتايلاند وباكستان وملاوي والمغرب.",
+          "video": "showreel",
+          "featured": true
+        },
+        {
+          "id": "flora",
+          "title": "فلورا للعطور",
+          "titleAlt": "FLORA Parfums",
+          "tag": "إنتاج إعلاني",
+          "text": "أنتج عبدالله محتوى إعلانيًا لعطور فلورا: فيديو للسوشيال ميديا وصور منتجات لمجموعة المسك (Powder وFlower وRouge وHoney).",
+          "video": "flora",
+          "vertical": true,
+          "gallery": "flora",
+          "featured": true
+        },
+        {
           "id": "zahrbaba",
           "title": "زهر بابا",
           "titleAlt": "ZahrBaba",
           "tag": "برنامج على يوتيوب",
           "text": "برنامج على يوتيوب بالعربية والأمهرية والأورومية، من ابتكاره وإعداده وتقديمه.",
-          "linkKey": "zahrbaba",
-          "featured": true
+          "linkKey": "zahrbaba"
         },
         {
           "id": "merja",
@@ -358,7 +395,8 @@
       "menu": "Menu",
       "photoPlaceholder": "Portrait placeholder",
       "workPlaceholder": "Project image placeholder",
-      "visit": "Visit"
+      "visit": "Visit",
+      "galleryLabel": "Product photography"
     },
     "nav": {
       "about": "About",
@@ -627,13 +665,31 @@
       "heading": "Selected Projects",
       "items": [
         {
+          "id": "shafiz",
+          "title": "Shafiz Media",
+          "tag": "Personal production brand · Showreel",
+          "text": "Shafiz Media is Abdullah's personal production brand. The showreel brings together footage from shoots in more than 40 countries, including Ethiopia, Thailand, Pakistan, Malawi and Morocco.",
+          "video": "showreel",
+          "featured": true
+        },
+        {
+          "id": "flora",
+          "title": "FLORA Parfums",
+          "titleAlt": "فلورا للعطور",
+          "tag": "Commercial production",
+          "text": "Abdullah produced commercial content for FLORA Parfums: a social media film and product photography for the musk collection (Powder, Flower, Rouge and Honey).",
+          "video": "flora",
+          "vertical": true,
+          "gallery": "flora",
+          "featured": true
+        },
+        {
           "id": "zahrbaba",
           "title": "ZahrBaba",
           "titleAlt": "زهر بابا",
           "tag": "YouTube program",
           "text": "A YouTube program in Arabic, Amharic and Oromo — created, developed and presented by Abdullah.",
-          "linkKey": "zahrbaba",
-          "featured": true
+          "linkKey": "zahrbaba"
         },
         {
           "id": "merja",

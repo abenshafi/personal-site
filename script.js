@@ -204,9 +204,23 @@
       var card = el('article', 'project reveal' + (p.featured ? ' project--featured' : ''));
       var fig = el('figure', 'project__media');
       // صورة العمل: ضع مسارها في content.json ← shared.images.projects
-      var plogo = !images[p.id] && p.logo ? logoMark(p.logo, p.title, 'project__logo') : null;
-      if (plogo) { fig.classList.add('project__media--logo'); fig.appendChild(plogo); }
+      var vids = content.shared.media || {};
+      var v = p.video && vids[p.video];
+      var plogo = !v && !images[p.id] && p.logo ? logoMark(p.logo, p.title, 'project__logo') : null;
+      if (v) {
+        var video = el('video');
+        video.src = v.src;
+        if (v.poster) video.poster = v.poster;
+        video.controls = true;
+        video.preload = 'none';
+        video.playsInline = true;
+        video.setAttribute('playsinline', '');
+        video.setAttribute('aria-label', p.title);
+        fig.classList.add('project__media--video');
+        fig.appendChild(video);
+      } else if (plogo) { fig.classList.add('project__media--logo'); fig.appendChild(plogo); }
       else fig.appendChild(media(images[p.id], p.title, t.ui.workPlaceholder));
+      if (p.vertical) card.classList.add('project--vertical');
       card.appendChild(fig);
 
       var body = el('div', 'project__body');
@@ -219,6 +233,20 @@
       }
       body.appendChild(title);
       body.appendChild(el('p', 'project__text', p.text));
+      var gal = p.gallery && content.shared.images.galleries && content.shared.images.galleries[p.gallery];
+      if (gal && gal.length) {
+        var g = el('div', 'project__gallery');
+        g.setAttribute('role', 'list');
+        g.setAttribute('aria-label', t.ui.galleryLabel || '');
+        gal.forEach(function (src) {
+          var a = el('a', 'project__shot');
+          a.href = src; a.target = '_blank'; a.rel = 'noopener';
+          a.setAttribute('role', 'listitem');
+          var img = el('img'); img.src = src; img.alt = p.title; img.loading = 'lazy'; img.decoding = 'async';
+          a.appendChild(img); g.appendChild(a);
+        });
+        body.appendChild(g);
+      }
       if (p.linkKey && link(p.linkKey)) {
         var a = el('a', 'link-arrow', t.ui.visit);
         a.href = link(p.linkKey);

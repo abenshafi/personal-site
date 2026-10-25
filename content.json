@@ -84,7 +84,7 @@
     "about": {
       "kicker": "01",
       "heading": "نبذة",
-      "body": "بدأ عبدالله مسيرته عام 2002، وهي مسيرة تجمع بين الإبداع والإنتاج وإدارة العمليات وتطوير الأعمال: الإدارة التحريرية، والإعلام المسموع والمرئي، وإدارة القنوات والفرق والمواهب، والتدريب الإعلامي، والإنتاج المستقل، وتطوير الأفلام والمحتوى، والتسويق وتطوير العلامات التجارية، والتجارة الإلكترونية، وتسهيل الاستثمار والتجارة الدولية، مع خبرة عملية في بيئتي الأعمال السعودية والإثيوبية.",
+      "body": "بدأ عبدالله مسيرته عام 2002، وهي مسيرة تجمع بين الإبداع والإنتاج وإدارة العمليات وتطوير الأعمال: الإدارة التحريرية، والإعلام المسموع والمرئي، وإدارة القنوات والفرق والمواهب، والتدريب الإعلامي، والإنتاج المستقل، وتطوير الأفلام والمحتوى، والتسويق وتطوير العلامات التجارية، والتجارة الإلكترونية، وتسهيل الاستثمار والتجارة الدولية، مع خبرة عملية في بيئات أعمال متعددة، منها السعودية والإمارات وإثيوبيا والصين.",
       "facts": [
         {
           "label": "بداية المسيرة",
@@ -92,7 +92,7 @@
         },
         {
           "label": "بيئات العمل",
-          "value": "السعودية · إثيوبيا"
+          "value": "السعودية · الإمارات · إثيوبيا · الصين"
         },
         {
           "label": "الدور الحالي",
@@ -425,7 +425,7 @@
     "about": {
       "kicker": "01",
       "heading": "About",
-      "body": "Abdullah’s career began in 2002 and brings together creative work, production, operations and business development. It spans editorial management, radio and television, managing channels, teams and talent, media training, independent production, film and content development, marketing and brand building, e-commerce, and facilitating investment and international trade — with hands-on experience in both the Saudi and Ethiopian business environments.",
+      "body": "Abdullah’s career began in 2002 and brings together creative work, production, operations and business development. It spans editorial management, radio and television, managing channels, teams and talent, media training, independent production, film and content development, marketing and brand building, e-commerce, and facilitating investment and international trade — with hands-on experience across several business environments, including Saudi Arabia, the UAE, Ethiopia and China.",
       "facts": [
         {
           "label": "Career start",
@@ -433,7 +433,7 @@
         },
         {
           "label": "Markets",
-          "value": "Saudi Arabia · Ethiopia"
+          "value": "Saudi Arabia · UAE · Ethiopia · China"
         },
         {
           "label": "Current role",

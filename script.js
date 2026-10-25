@@ -224,6 +224,10 @@
       card.appendChild(fig);
 
       var body = el('div', 'project__body');
+      if (p.brandLogo) {
+        var bl = logoMark(p.brandLogo, p.title, 'project__brand');
+        if (bl) body.appendChild(bl);
+      }
       body.appendChild(el('span', 'project__tag', p.tag));
       var title = el('h3', 'project__title', p.title);
       if (p.titleAlt) {

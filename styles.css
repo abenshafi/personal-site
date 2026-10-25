@@ -324,7 +324,7 @@ html[lang="ar"] .tl__years { font-family: var(--font-body); font-size: 0.9rem; }
   content: ""; position: absolute; inset-inline-start: 0; top: 0.85em; width: 8px; height: 1px; background: var(--gold);
 }
 .tl__highlight {
-  margin-top: 22px; padding: 22px 24px; background: var(--surface);
+  margin-top: 22px; padding: 22px 24px; background: var(--bg-alt);
   border-inline-start: 2px solid var(--gold);
 }
 .tl__highlight h4 { font-size: 1rem; font-weight: 500; color: var(--gold-soft); }
@@ -441,7 +441,7 @@ html[lang="en"] .project__tag { text-transform: uppercase; }
 .hero__role:empty { display: none; }
 
 /* ===== Logos (one-color marks, tinted by theme) ===== */
-.tl__logo, .tl__brand, .project__logo, .project__brand {
+.tl__logo, .tl__brand, .project__logo, .project__brand, .tl__client {
   display: block; background: var(--text);
   -webkit-mask: var(--logo) no-repeat; mask: var(--logo) no-repeat;
   -webkit-mask-size: contain; mask-size: contain;
@@ -475,3 +475,4 @@ html[dir="ltr"] .tl__logo, html[dir="ltr"] .tl__brand { -webkit-mask-position: l
 .project__media .project__logo-img { width: 30%; height: auto; max-height: 70%; object-fit: contain; }
 .project:hover .project__media .project__logo-img { transform: none; }
 [hidden] { display: none !important; }
+.tl__client { width: 170px; height: 64px; margin-bottom: 14px; }

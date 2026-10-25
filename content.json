@@ -27,7 +27,8 @@
         "alrasheed": "images/logos/alrasheed.png",
         "shafiz": "images/logos/shafiz.png",
         "almajd": "images/logos/almajd-2002.png",
-        "zahrbaba": "images/logos/zahrbaba.png"
+        "zahrbaba": "images/logos/zahrbaba.png",
+        "kuwait": "images/logos/kuwait-livestock.png"
       },
       "galleries": {
         "flora": [
@@ -253,7 +254,8 @@
               "تأسيس المشروع واستخراج التراخيص",
               "تسهيل الحصول على حقوق أكثر من 5,000 هكتار من الأراضي الزراعية",
               "تنسيق استيراد 80 حاوية 40 قدمًا من المعدات والمواد بقيمة تتجاوز 15 مليون دولار، إضافة إلى أنظمة الري المحوري"
-            ]
+            ],
+            "logo": "kuwait"
           },
           "extra": [
             "تصدير القهوة الإثيوبية المتخصصة (Guji, Yirgacheffe, Sidama)",
@@ -592,7 +594,8 @@
               "Establishing the project and securing its licenses",
               "Facilitating land rights for more than 5,000 hectares of agricultural land",
               "Coordinating the import of 80 forty-foot containers of equipment and materials worth over USD 15 million, along with center-pivot irrigation systems"
-            ]
+            ],
+            "logo": "kuwait"
           },
           "extra": [
             "Exporting Ethiopian specialty coffee (Guji, Yirgacheffe, Sidama)",

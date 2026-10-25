@@ -169,6 +169,10 @@
 
       if (item.highlight) {
         var h = el('div', 'tl__highlight');
+        if (item.highlight.logo) {
+          var hl = logoMark(item.highlight.logo, item.highlight.heading, 'tl__client');
+          if (hl) h.appendChild(hl);
+        }
         h.appendChild(el('h4', null, item.highlight.heading));
         if (item.highlight.intro) h.appendChild(el('p', null, item.highlight.intro));
         h.appendChild(bulletList(item.highlight.items, 'tl__list'));

@@ -26,7 +26,8 @@
         "zah": "images/logos/zah.png",
         "alrasheed": "images/logos/alrasheed.png",
         "shafiz": "images/logos/shafiz.png",
-        "almajd": "images/logos/almajd-2002.png"
+        "almajd": "images/logos/almajd-2002.png",
+        "zahrbaba": "images/logos/zahrbaba.png"
       },
       "galleries": {
         "flora": [
@@ -357,7 +358,8 @@
           "titleAlt": "ZahrBaba",
           "tag": "برنامج على يوتيوب",
           "text": "برنامج على يوتيوب بالعربية والأمهرية والأورومية، من ابتكاره وإعداده وتقديمه.",
-          "linkKey": "zahrbaba"
+          "linkKey": "zahrbaba",
+          "logoImage": "zahrbaba"
         },
         {
           "id": "merja",
@@ -695,7 +697,8 @@
           "titleAlt": "زهر بابا",
           "tag": "YouTube program",
           "text": "A YouTube program in Arabic, Amharic and Oromo — created, developed and presented by Abdullah.",
-          "linkKey": "zahrbaba"
+          "linkKey": "zahrbaba",
+          "logoImage": "zahrbaba"
         },
         {
           "id": "merja",

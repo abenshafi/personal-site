@@ -218,6 +218,10 @@
         video.setAttribute('aria-label', p.title);
         fig.classList.add('project__media--video');
         fig.appendChild(video);
+      } else if (p.logoImage && content.shared.images.logos && content.shared.images.logos[p.logoImage]) {
+        var li = el('img', 'project__logo-img');
+        li.src = content.shared.images.logos[p.logoImage]; li.alt = p.title; li.loading = 'lazy';
+        fig.classList.add('project__media--logo'); fig.appendChild(li);
       } else if (plogo) { fig.classList.add('project__media--logo'); fig.appendChild(plogo); }
       else fig.appendChild(media(images[p.id], p.title, t.ui.workPlaceholder));
       if (p.vertical) card.classList.add('project--vertical');

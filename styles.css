@@ -472,3 +472,5 @@ html[dir="ltr"] .tl__logo, html[dir="ltr"] .tl__brand { -webkit-mask-position: l
 }
 
 .project__brand { width: 170px; height: 78px; margin-bottom: 6px; }
+.project__media .project__logo-img { width: 30%; height: auto; max-height: 70%; object-fit: contain; }
+.project:hover .project__media .project__logo-img { transform: none; }

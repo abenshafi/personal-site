@@ -324,7 +324,7 @@ html[lang="ar"] .tl__years { font-family: var(--font-body); font-size: 0.9rem; }
   content: ""; position: absolute; inset-inline-start: 0; top: 0.85em; width: 8px; height: 1px; background: var(--gold);
 }
 .tl__highlight {
-  margin-top: 22px; padding: 22px 24px; background: var(--bg-alt);
+  margin-top: 22px; padding: 22px 24px; background: var(--surface);
   border-inline-start: 2px solid var(--gold);
 }
 .tl__highlight h4 { font-size: 1rem; font-weight: 500; color: var(--gold-soft); }

@@ -291,10 +291,12 @@
     var wrap = document.getElementById('postList');
     wrap.replaceChildren();
     var valid = posts.filter(function (p) { return embedUrl(p.embed); });
-    if (!valid.length) {
-      wrap.appendChild(el('p', 'posts__empty reveal', t.posts.empty));
-      return;
-    }
+    var section = document.getElementById('posts');
+    var navLink = document.querySelector('.nav a[href="#posts"]');
+    // Hide the whole section (and its menu link) until posts.json has posts.
+    if (section) section.hidden = !valid.length;
+    if (navLink) navLink.hidden = !valid.length;
+    if (!valid.length) return;
     valid.forEach(function (p) {
       var card = el('div', 'post reveal');
       var frame = document.createElement('iframe');

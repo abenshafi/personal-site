@@ -24,7 +24,8 @@
         "merja": "images/logos/merja.png",
         "synergy": "images/logos/synergy.png",
         "zah": "images/logos/zah.png",
-        "alrasheed": "images/logos/alrasheed.png"
+        "alrasheed": "images/logos/alrasheed.png",
+        "almajd": "images/logos/almajd.png"
       },
       "galleries": {
         "flora": [
@@ -305,7 +306,8 @@
             "إدارة المذيعين الشباب",
             "إدارة قناة المجد للأطفال، مع التنسيق مع راديو دال لتسجيل الأناشيد",
             "إدارة البرامج التسجيلية"
-          ]
+          ],
+          "logo": "almajd"
         },
         {
           "years": "2002 — 2004",
@@ -641,7 +643,8 @@
             "Managing young presenters",
             "Managing Al-Majd Kids channel, working with Dal Radio on nasheed recordings",
             "Managing documentary programs"
-          ]
+          ],
+          "logo": "almajd"
         },
         {
           "years": "2002 — 2004",

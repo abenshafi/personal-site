@@ -23,7 +23,8 @@
         "alswylem": "images/logos/alswylem.png",
         "merja": "images/logos/merja.png",
         "synergy": "images/logos/synergy.png",
-        "zah": "images/logos/zah.png"
+        "zah": "images/logos/zah.png",
+        "alrasheed": "images/logos/alrasheed.png"
       }
     }
   },
@@ -266,7 +267,8 @@
               "title": "مدير الإنتاج والتدريب الإعلامي",
               "period": "فبراير 2009 – أغسطس 2010"
             }
-          ]
+          ],
+          "logo": "alrasheed"
         },
         {
           "years": "2003 — 2009",
@@ -582,7 +584,8 @@
               "title": "Production & Media Training Manager",
               "period": "Feb 2009 – Aug 2010"
             }
-          ]
+          ],
+          "logo": "alrasheed"
         },
         {
           "years": "2003 — 2009",

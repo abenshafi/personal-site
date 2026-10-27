@@ -381,11 +381,51 @@
     update();
   }
 
+  /* ---------- anonymous counters (hits.sh: no cookies, no IP tracking) ---------- */
+
+  var COUNT_BASE = 'https://hits.sh/shafiz.net';
+  var counted = {};
+  function count(key) {
+    if (!/^shafiz\.net$/i.test(location.hostname)) return; // only the live site
+    try {
+      var img = new Image();
+      img.referrerPolicy = 'no-referrer';
+      img.src = COUNT_BASE + (key ? '/' + key : '') + '.svg';
+    } catch (e) {}
+  }
+  function setupCounters() {
+    count('');
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a');
+      if (!a) return;
+      var href = a.getAttribute('href') || '';
+      var key = null;
+      if (/linkedin\.com/.test(href)) key = 'click-linkedin';
+      else if (/^mailto:/.test(href)) key = 'click-email';
+      else if (/youtube\.com/.test(href)) key = 'click-zahrbaba';
+      else if (/zah\.sa|instagram\.com\/zah/.test(href)) key = 'click-zah';
+      else if (/synergyet\.net/.test(href)) key = 'click-synergy';
+      else if (/salla\.sa/.test(href)) key = 'click-yazaf';
+      else if (a.classList.contains('project__shot')) key = 'click-flora-photo';
+      if (key) count(key);
+    }, true);
+    document.addEventListener('play', function (e) {
+      var v = e.target;
+      if (!v || v.tagName !== 'VIDEO') return;
+      var key = /showreel/.test(v.currentSrc || v.src) ? 'play-showreel' : 'play-flora';
+      if (counted[key]) return;
+      counted[key] = true;
+      count(key);
+    }, true);
+    document.getElementById('langToggle').addEventListener('click', function () { count('click-language'); });
+  }
+
   /* ---------- boot ---------- */
 
   document.getElementById('year').textContent = new Date().getFullYear();
   setupMenu();
   setupHeaderShadow();
+  setupCounters();
 
   Promise.all([
     fetch('content.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }),

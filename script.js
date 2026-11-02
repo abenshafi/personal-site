@@ -404,6 +404,9 @@
       else if (/^mailto:/.test(href)) key = 'click-email';
       else if (/youtube\.com/.test(href)) key = 'click-zahrbaba';
       else if (/zah\.sa|instagram\.com\/zah/.test(href)) key = 'click-zah';
+      else if (/(^|\/\/)(www\.)?(x|twitter)\.com\//.test(href)) key = 'click-x';
+      else if (/instagram\.com\/abenshafi/.test(href)) key = 'click-instagram';
+      else if (/tiktok\.com/.test(href)) key = 'click-tiktok';
       else if (/synergyet\.net/.test(href)) key = 'click-synergy';
       else if (/salla\.sa/.test(href)) key = 'click-yazaf';
       else if (a.classList.contains('project__shot')) key = 'click-flora-photo';

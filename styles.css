@@ -262,7 +262,7 @@ html[lang="ar"] .section__head h2, html[lang="ar"] .contact h2 { line-height: 1.
 
 /* About */
 .about { display: grid; grid-template-columns: 1.6fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: start; }
-.about__body { font-size: clamp(1.05rem, 1.6vw, 1.2rem); line-height: 2; color: var(--text); }
+.about__body { font-size: clamp(1.05rem, 1.6vw, 1.2rem); line-height: 2; color: var(--text); white-space: pre-line; }
 html[lang="en"] .about__body { line-height: 1.85; }
 .facts { margin: 0; border-top: 1px solid var(--line); }
 .facts__row { padding: 18px 0; border-bottom: 1px solid var(--line-soft); }

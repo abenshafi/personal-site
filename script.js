@@ -181,6 +181,31 @@
 
       if (item.extra && item.extra.length) body.appendChild(bulletList(item.extra, 'tl__list'));
 
+      if (item.showcase) {
+        var sc = el('div', 'tl__showcase');
+        sc.appendChild(el('h4', null, item.showcase.heading));
+        if (item.showcase.stats && item.showcase.stats.length) {
+          var st = el('div', 'tl__stats');
+          item.showcase.stats.forEach(function (s) {
+            var cell = el('div', 'tl__stat');
+            var v = el('strong', null, s.value);
+            v.dir = 'ltr';
+            cell.appendChild(v);
+            cell.appendChild(el('span', null, s.label));
+            st.appendChild(cell);
+          });
+          sc.appendChild(st);
+        }
+        if (item.showcase.clientsLabel) sc.appendChild(el('p', 'tl__clients-label', item.showcase.clientsLabel));
+        if (item.showcase.clients && item.showcase.clients.length) {
+          var cl = el('ul', 'tl__clients');
+          item.showcase.clients.forEach(function (c) { cl.appendChild(el('li', null, c)); });
+          sc.appendChild(cl);
+        }
+        if (item.showcase.note) sc.appendChild(el('p', 'tl__clients-note', item.showcase.note));
+        body.appendChild(sc);
+      }
+
       var links = (item.links || []).filter(function (l) { return link(l.key); });
       if (links.length) {
         var row = el('div', 'tl__links');

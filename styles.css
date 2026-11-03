@@ -329,6 +329,26 @@ html[lang="ar"] .tl__years { font-family: var(--font-body); font-size: 0.9rem; }
 }
 .tl__highlight h4 { font-size: 1rem; font-weight: 500; color: var(--gold-soft); }
 .tl__highlight p { margin-top: 6px; color: var(--muted); font-size: 0.92rem; }
+.tl__showcase {
+  margin-top: 22px; padding: 22px 24px; background: var(--surface);
+  border-inline-start: 2px solid var(--gold);
+}
+.tl__showcase h4 { font-size: 1rem; font-weight: 500; color: var(--gold-soft); }
+.tl__stats { margin-top: 14px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.tl__stat { display: flex; flex-direction: column; gap: 2px; }
+.tl__stat strong {
+  font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 500;
+  color: var(--gold); line-height: 1.1; font-variant-numeric: lining-nums;
+}
+html[dir="rtl"] .tl__stat strong { text-align: right; }
+.tl__stat span { font-size: 0.82rem; color: var(--muted); }
+.tl__clients-label { margin-top: 18px; font-size: 0.82rem; color: var(--muted); }
+.tl__clients { margin-top: 8px; list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+.tl__clients li {
+  padding: 5px 12px; border: 1px solid var(--line); font-size: 0.88rem; color: var(--text-soft);
+}
+.tl__clients-note { margin-top: 10px; font-size: 0.82rem; color: var(--muted); }
+@media (max-width: 480px) { .tl__stats { grid-template-columns: 1fr 1fr 1fr; gap: 8px; } .tl__showcase { padding: 18px 16px; } }
 .tl__links { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 20px; }
 
 .training {

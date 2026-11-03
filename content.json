@@ -169,7 +169,34 @@
               "key": "zahInstagram"
             }
           ],
-          "logo": "zah"
+          "logo": "zah",
+          "showcase": {
+            "heading": "من أعمال زاه",
+            "stats": [
+              {
+                "value": "300+",
+                "label": "مشروع مدعوم"
+              },
+              {
+                "value": "2,000+",
+                "label": "ساعة إنتاج"
+              },
+              {
+                "value": "70+",
+                "label": "شريك وعميل"
+              }
+            ],
+            "clientsLabel": "عملاء ومشاريع دعمتها زاه:",
+            "clients": [
+              "أرامكو",
+              "وزارة الرياضة",
+              "وزارة الثقافة — الحرف اليدوية",
+              "هيئة تطوير بوابة الدرعية",
+              "صُنع في السعودية",
+              "كأس العالم للرياضات الإلكترونية"
+            ],
+            "note": "نماذج مختارة، والقائمة تتحدّث تباعًا."
+          }
         },
         {
           "years": "2010 — الآن",
@@ -516,7 +543,34 @@
               "key": "zahInstagram"
             }
           ],
-          "logo": "zah"
+          "logo": "zah",
+          "showcase": {
+            "heading": "Selected work at Zah",
+            "stats": [
+              {
+                "value": "300+",
+                "label": "Projects supported"
+              },
+              {
+                "value": "2,000+",
+                "label": "Production hours"
+              },
+              {
+                "value": "70+",
+                "label": "Partners & clients"
+              }
+            ],
+            "clientsLabel": "Clients and projects Zah has supported:",
+            "clients": [
+              "Aramco",
+              "Ministry of Sport",
+              "Ministry of Culture — Handicrafts",
+              "Diriyah Gate Development Authority",
+              "Saudi Made",
+              "Esports World Cup"
+            ],
+            "note": "A selection; more to be added."
+          }
         },
         {
           "years": "2010 — Present",
